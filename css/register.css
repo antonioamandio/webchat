@@ -1,0 +1,128 @@
+@charset "UTF-8";
+
+/* Configurações globais */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Criação das variáveis */
+
+:root {
+    --backgroundColor: #e5e7eb;
+    --primaryColor: #00c981;
+}
+
+#wrapper {
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--backgroundColor);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#formContainer {
+    background-color: #fff;
+    width: 400px;
+    padding: 30px;
+    border-radius: 4px;
+}
+
+#formContainer h1 {
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 2px solid var(--primaryColor);
+}
+
+#formContainer form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-block: 20px;
+}
+
+#errorText {
+    color: #721c24;
+    padding: 8px 10px;
+    text-align: center;
+    border-radius: 4px;
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+    width: 100%;
+    display: none;
+}
+
+#nameInputs {
+    display: flex;
+    gap: 15px;
+}
+
+.inputField {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+input {
+    height: 40px;
+    width: 100%;
+    font-size: 16px;
+    padding-inline: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+.inputField input:focus {
+    outline: 2px solid var(--primaryColor);
+}
+
+#buttonField button {
+    height: 40px;
+    width: 100%;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 16px;
+    background-color: var(--primaryColor);
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+#buttonField button:hover {
+    background-color: #04b073;
+}
+
+#link {
+    text-align: center;
+    font-size: 17px;
+}
+
+#link a {
+    color: var(--primaryColor);
+}
+
+#link a:hover {
+    text-decoration: underline;
+    color: #04b073;
+}
+
+/* Configurações de responsividade */
+
+@media screen and (max-height: 600px) {
+    #formContainer {
+        margin-top: 80px;
+    }
+}
+
+@media screen and (max-width: 480px){
+    #nameInputs {
+        flex-direction: column;
+    }
+}

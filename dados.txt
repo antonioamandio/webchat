@@ -1,0 +1,20 @@
+Dados dos estudantes:
+
+Trabalho feito por: António Amândio (Nº3) e João Pedro (Nº15)
+TURMA: A
+CLASSE: 12ª
+CURSO: Técnico de informática
+
+Enunciado do trabalho:
+
+Chat de Mensagens em Tempo Real com PHP PDO e Fetch API
+
+O objetivo deste projeto é desenvolver um sistema de chat de mensagens em tempo real, utilizando PHP com PDO para interagir com o banco de dados e JavaScript com Fetch API para realizar requisições assíncronas. O chat permitirá que os usuários enviem mensagens em tempo real, visualizem as mensagens dos outros usuários e atualizem a interface sem a necessidade de recarregar a página.
+
+Implementar um sistema de login seguro para os usuários acessarem o chat. Permitir que os usuários enviem mensagens em tempo real e que recebam as mensagens enviadas por outros usuários sem a necessidade de atualizar a página. Utilizar o PDO do PHP para interagir com o banco de dados e armazenar as mensagens enviadas pelos usuários. Criar uma interface de usuário intuitiva e responsiva, que se adapte a diferentes dispositivos e tamanhos de tela. Implementar uma lógica para atualizar automaticamente o chat, exibindo novas mensagens sem a intervenção do usuário.
+Separar o código em arquivos distintos para facilitar a manutenção e organização.
+Base de dados, com tabela user e mensagens
+Utilizar a Fetch API para fazer requisições assíncronas ao servidor e atualizar dinamicamente a interface do usuário.
+Separar as responsabilidades de manipulação do DOM, lógica de negócios e comunicação com o servidor.
+
+O projeto deverá ser desenvolvido de forma a garantir a segurança, escalabilidade e performance do sistema. Além disso, é importante documentar adequadamente o código fonte, fornecendo comentários e instruções para facilitar a compreensão e manutenção por outros desenvolvedores.

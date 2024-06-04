@@ -1,0 +1,20 @@
+DROP DATABASE IF EXISTS db_webchat;
+
+CREATE DATABASE IF NOT EXISTS db_webchat;
+
+USE db_webchat;
+
+CREATE TABLE IF NOT EXISTS tb_users (
+    userId INT AUTO_INCREMENT PRIMARY KEY,
+    firstName VARCHAR(255) NOT NULL,
+    lastName VARCHAR(255) NOT NULL,
+    email VARCHAR(255) UNIQUE NOT NULL,
+    userPassword VARCHAR(255) NOT NULL,
+    sessionToken VARCHAR(255) UNIQUE NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS tb_messages (
+    messageId INT AUTO_INCREMENT PRIMARY KEY,
+    senderId INT NOT NULL,
+    content TEXT NOT NULL
+);
