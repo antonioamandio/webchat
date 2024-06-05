@@ -33,31 +33,7 @@
 
             </header>
 
-            <div id="messageContainer">
-
-                <!-- <div class="messageFromOthers">
-                    <div class="receiverName">António Amândio</div>
-                    <div class="messageContent">Oi</div>
-                </div>
-
-                <div class="messageFromOthers">
-                    <div class="receiverName">António Amândio</div>
-                    <div class="messageContent">Tudo bem?</div>
-                </div>
-
-                <div class="senderMessage">
-                    <div class="messageContent">Eu estou bem...</div>
-                </div>
-
-                <div class="senderMessage">
-                    <div class="messageContent">E você?</div>
-                </div>
-
-                <div class="senderMessage">
-                    <div class="messageContent">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam delectus nulla dolore eligendi quidem reprehenderit voluptates! Exercitationem minima tenetur culpa aperiam reprehenderit saepe tempore natus earum doloribus voluptate. Sapiente, maiores.</div>
-                </div> -->
-
-            </div>
+            <div id="messageContainer"></div>
 
             <form autocomplete="off">
                 <input type="text" id="messageInput" placeholder="Digite uma mensagem">
@@ -71,7 +47,6 @@
 </body>
 
 </html>
-
 
 <script src="js/sendMessages.js"></script>
 <script src="js/getMessages.js"></script>

@@ -34,6 +34,7 @@ async function sendMessage(event) {
 
             if (responseData.status === "success") {
                 document.getElementById('messageInput').value = '';
+                messageContainer.scrollTop = messageContainer.scrollHeight;
             }
             
         }

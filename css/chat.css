@@ -76,8 +76,6 @@
 }
 
 .messageFromOthers, .senderMessage {
-    /* width: fit-content; 
-    height: fit-content; */
     padding: 10px;
     border-radius: 4px;
     max-width: 230px;

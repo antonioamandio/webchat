@@ -3,7 +3,7 @@
 // Verificando se a mensagem foi digitada
 if (!empty($_POST['message'])) {
 
-    // Limpeza da mensagem
+    // Limpeza do valor do campo de mensagem
     $message = filter_var($_POST['message'], FILTER_SANITIZE_SPECIAL_CHARS);
 
     // Puxando os dados do arquivo de conexão com a base de dados
