@@ -2,6 +2,10 @@
 
 Este é um projeto de **WebChat simples**, desenvolvido com **HTML**, **CSS**, **JavaScript** e **PHP com PDO**, sem frameworks nem bibliotecas externas. O foco está na aprendizagem dos fundamentos da programação web com tecnologias puras.
 
+<br>
+
+<img src="img/chat.png">
+
 ---
 
 ## 🧠 Funcionalidades
